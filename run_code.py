@@ -6,6 +6,7 @@ def run_code():
     b = np.array([4, 5, 6])
     result = a + b
     print("Result of addition:", result)
+    print("Numpy version:", np.__version__)
 
 if __name__ == "__main__":
     run_code()
